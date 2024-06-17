@@ -1,0 +1,3 @@
+https://www.youtube.com/watch?v=ydcm7GECaAI
+https://pokeapi.co/api/v2/pokemon/
+https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${data.id}.png

@@ -1,0 +1,136 @@
+body{
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/232/230/447/pixel-art-landscape-sunset-16-bit-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container
+{
+  
+    margin: 100px;
+    height: 300px;
+    width: 226px;
+    position: absolute;
+    perspective: 1000px;
+    top:50%;
+    left: 50%;    
+    margin-top: -100px;
+    margin-left: -100px;
+    border-radius: 5px;
+}
+.container:hover .card {
+  transform: rotateY(180deg);
+}
+.cara {
+  position: absolute;
+  backface-visibility: hidden;
+}
+.cara.detras {
+  transform: rotateY(180deg);
+  
+}
+.card
+{
+
+  transform-style: preserve-3d;
+  transition: all 0.5s linear;
+}
+.card > .cara > .fondo
+{
+  background: linear-gradient(135deg, rgba(252,234,187,1) 0%, rgba(250,250,77,1) 22%, rgba(247,214,0,1) 56%, rgba(250,250,147,1) 100%);
+  border: black 0.5px solid;
+  height: 300px;
+    width: 226px;
+    position: absolute;
+    perspective: 1000px;
+}
+.card > .cara > .fondo > .base
+{
+  background: linear-gradient(to right, rgba(252,234,187,1) 0%, rgba(250,250,77,1) 29%, rgba(247,214,0,1) 51%, rgba(250,250,147,1) 100%);
+  border: white 5px outset;
+  height: 275px;
+  width: 200px;
+  position: absolute;
+  left: 3.5%;
+  top: 2%
+}
+.card > .cara > .fondo > .base > .card-title
+{
+  left: 20px;
+  text-align: left;
+  font: 150% sans-serif;
+  background: radial-gradient(ellipse, gray, white);
+}
+.card-title >div{
+  color: green;
+  text-align: right;
+  position: absolute; left: 140px; top: 2.5px;
+}
+.PokemonImagen{
+  text-align: center;
+  background-image: url(https://i.blogs.es/89aaa3/650_1000_bliss-original/450_1000.jpg);
+  border-color: #a3a3a3 #7c7c7c #727272;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 7px;
+}
+
+.card > .cara > .fondo > .base > .card-body-text{
+
+  text-align: center;
+  color: gray;
+  font: 100% sans-serif;
+}
+
+.card-footer > .card-body:nth-child(1) > .card-tex{
+  text-align: left;
+  position: absolute; 
+  left: 140px; 
+  top: 156px;
+}
+.card-footer > .card-body:nth-child(2) > .card-tex{
+  text-align: left;
+  position: absolute; 
+  left: 140px; 
+  top: 188px;
+}
+.card-footer > .card-body:nth-child(3) > .card-tex{
+  text-align: left;
+  position: absolute; 
+  left: 140px; 
+  top: 225.5px;
+}
+.card-footer > .card-body > .card-tex{
+  color: red;
+  margin-left: 20px;
+}
+
+.card-footer > .card-body:nth-child(1){
+  margin-top: 5px;
+}
+.card-footer > .card-body:nth-child(2){
+  margin-top: 15px;
+}
+.card-footer > .card-body:nth-child(3){
+  margin-top: 20px;
+}
+.card-footer{
+  font: 100% sans-serif;
+}
+
+form {
+  font: 100% sans-serif;
+  margin-top:42.5%;
+  margin-left: 46%;
+}
+input{
+ 
+    border: white 5px outset;
+}
+@media screen and (max-width: 992px)
+{
+  form {
+    font: 100% sans-serif;
+    margin-top:85%;
+    margin-left: 42%;
+  }
+}
